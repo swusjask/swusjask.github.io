@@ -329,6 +329,7 @@ $$
       
       $$C = \begin{bmatrix} 0 & 1 \\ 1 & 0 \end{bmatrix} \quad D = \begin{bmatrix} 0 & e^{2\pi i \over 3} \\ e^{4\pi i \over 3} 0 \end{bmatrix}$$
 
+   So all possible value of $\operatorname{trace}(CD)$ is $2$ and $-1$.
 
 
 Actually, one of problem is broken though 🤡. Someone give the counterexample and get full marks with strong assumption (because the detail of marks is not published). So free delegation 🤡🤡. The detail is left as exercise to the reader 🤓.
