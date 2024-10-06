@@ -327,7 +327,7 @@ $$
 
       Which means $\lambda_1^4 = \lambda_1 \Longrightarrow \lambda_1^3 = 1$. Then, $\lambda_1$ is 3rd root of unity. By similar argument $\lambda_2$ is also 3rd root of unity. If either one is $1$, then we get back to the first case. So assume not and we have $(\lambda_1, \lambda_2) = (e^{2\pi i \over 3}, e^{4\pi i \over 3})$ up to permutation. Which mean $\operatorname{trace}(DC) = e^{2\pi i \over 3} + e^{4\pi i \over 3} = -1$. This case is possible given by
       
-      $$C = \begin{bmatrix} 0 & 1 \\ 1 & 0 \end{bmatrix} \quad D = \begin{bmatrix} 0 & e^{2\pi i \over 3} \\ e^{4\pi i \over 3} & 0 \end{bmatrix}$$
+      $$C = \begin{bmatrix} 0 & 1 \\ 1 & 0 \end{bmatrix} \quad D = \begin{bmatrix} \sin ({2\pi \over 3}) & \cos ({2\pi \over 3}) \\ \cos ({2\pi \over 3}) & -\sin ({2\pi \over 3}) \end{bmatrix}$$
 
    So all possible value of $\operatorname{trace}(CD)$ is $2$ and $-1$.
 
