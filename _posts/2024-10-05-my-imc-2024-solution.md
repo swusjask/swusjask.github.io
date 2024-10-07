@@ -2,8 +2,8 @@
 layout: post
 title: My IMC 2024 Solution
 date: 2024-10-05 10:10 +0700
-categories: [Mathematics, Cryptography]
-tags: [CTF, algebra, polynomial ring, isomorphism, discrete log]
+categories: [Mathematics, Competition, IMC]
+tags: [IMC 2024, Math Competition, Solutions, Team Selection]
 math: true
 ---
 
