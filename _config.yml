@@ -16,7 +16,7 @@ timezone: Asia/Jakarta
 
 title: Swusjask # the main title
 
-tagline: Crypto Is Not Cryptocurrency # it will display as the subtitle
+tagline: I don't know what I'm doing # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   Just enjoying learning cryptography.
