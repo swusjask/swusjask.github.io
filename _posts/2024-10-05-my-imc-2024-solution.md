@@ -263,7 +263,7 @@ $$
 
 BA &= ABAB \\
 \operatorname{trace}(BA) &= \operatorname{trace}(ABAB) \\
-\operatorname{trace}(AB) &= \operatorname{trace}(AB)^2 \tag{1} \label{eq:trace} \\
+\operatorname{trace}(AB) &= \operatorname{trace}((AB)^2) \tag{1} \label{eq:trace} \\
 
 \end{align*}
 $$

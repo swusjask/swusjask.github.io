@@ -4,9 +4,9 @@ title: Quotient Polynomial Ring and Isomorphism
 date: 2024-10-07 11:44 +0700
 categories:
 - Cryptography
+- CTF
 - Mathematics
 tags:
-- CTF
 - algebra
 - polynomial ring
 - isomorphism
@@ -228,7 +228,7 @@ open("flag_dec.png", "wb").write(block_to_bytes(dec))
 ```
 {:. file='solve.py'}
 
-![Desktop View](/assets/img/quotient-poly/flag_dec.png){: width="300" .normal}
+![Flag Decrypted](/assets/img/quotient-poly/flag_dec.png){: width="300" .normal}
 
 > **Flag:** `COMPFEST15{find_the_order_of_group_81ee36780a}`
 
