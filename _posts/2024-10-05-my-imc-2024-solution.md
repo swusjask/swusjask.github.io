@@ -2,8 +2,12 @@
 layout: post
 title: My IMC 2024 Solution
 date: 2024-10-05 10:10 +0700
-categories: [Mathematics, Competition, IMC]
-tags: [IMC 2024, Math Competition, Solutions, Team Selection]
+categories: [Mathematics, IMC]
+tags:
+- IMC 2024
+- math competition
+- solutions
+- team selection
 math: true
 ---
 

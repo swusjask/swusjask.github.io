@@ -2,11 +2,9 @@
 layout: post
 title: Quotient Polynomial Ring and Isomorphism
 date: 2024-10-07 11:44 +0700
-categories:
-- Cryptography
-- CTF
-- Mathematics
+categories: [CTF, Cryptography]
 tags:
+- math
 - algebra
 - polynomial ring
 - isomorphism
