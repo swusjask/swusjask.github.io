@@ -91,7 +91,7 @@ $$ A^2v = A(\sqrt{n}v) = \sqrt{n}Av = n v $$
 
 Thus, $v \in E_n(A^2)$ and $E_\sqrt{n}(A) \subseteq E_n(A^2)$. Consequently, $\dim E_\sqrt{n}(A) \leq 1$. But dimension of eigenspace is at least $1$, so $\dim E_\sqrt{n}(A) = 1$ and we have $E_\sqrt{n}(A) = E_n(A^2) = \operatorname{span}(b)$.
 
-Now, after such a long argument. We are ready to prove the main claim that it is indeed not possible for $n$ not complete square. Because $b$ in $E_\sqrt{n}(A)$, we have 
+We are ready to prove the main claim that it is indeed not possible for $n$ not complete square. Because $b$ in $E_\sqrt{n}(A)$, we have 
 
 $$Ab = \sqrt{n}b$$
 
