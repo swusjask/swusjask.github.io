@@ -43,8 +43,6 @@ From theorem 1, we can say that all nonzero element in $R[x]/\langle f(x) \rangl
 
 **Theorem 2.** Multplicative group of $Z_p[x]/\langle f(x) \rangle$ for some irreducible polynomial $f(x)$ with degree $n$ is isomorphic to $\mathbb{Z}_{p^n - 1}^*$.
 
->**Remark:** For the following theorems, I still do not formally proof it yet (only guessing and some rough intuition). But after experimenting with some property, I am pretty sure that the theorem is indeed true. Some correction or suggestion are welcome.
-
 **Theorem 3.** If $n=pq$, where $p$ and $q$ are prime, and suppose $f(x)$ is irreducible in $\mathbb{Z}_n[x]$. Then $\mathbb{Z}_n[x]/\langle f(x) \rangle \cong \mathbb{Z}_p[x]/\langle f(x) \rangle \times \mathbb{Z}_q[x]/\langle f(x) \rangle$.
 
 **Theorem 4.** If $R$ is ring and $p(x)$ and $q(x)$ relatively prime (the common divisor is unit) for $p(x), q(x) \in R[x]$. Then $R[x]/ \langle p(x)q(x) \rangle \cong R[x]/\langle p(x) \rangle \times R[x]/\langle q(x) \rangle$.
