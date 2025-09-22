@@ -13,7 +13,7 @@ image:
   alt: Cimpa Photo
 ---
 
-This July 2025, I had the incredible opportunity to participate in the CIMPA Research School on "Arithmetic in Action: Number Theory and its Applications to Cryptography and Coding Theory" held at Universitas Gadjah Mada in Yogyakarta, Indonesia. As a cryptography enthusiast, this experience was truly transformative and opened my eyes to the deep mathematical foundations underlying modern cryptographic systems.
+This July 2025, I had the incredible opportunity to participate in the CIMPA Research School on "Arithmetic in Action: Number Theory and its Applications to Cryptography and Coding Theory" held at Universitas Gadjah Mada in Yogyakarta, Indonesia. As a cryptography enthusiast, this experience was amazing and really opened my mind to the deep mathematical foundations underlying modern cryptographic systems.
 
 ## CIMPA Research School
 
@@ -48,7 +48,7 @@ This theoretical foundation is especially relevant given the current NIST Post-Q
 
 ## Exercise Solutions
 
-Throughout the course, I worked through challenging exercises that helped me to bridge theoretical concepts. Here I share my worked solution specifically for lattice based cryptography. For detailed solution you can read below
+Throughout the course, I worked through challenging exercises that helped me to bridge theoretical concepts. Here I share my worked solution specifically for lattice based cryptography on Lattice course. For detailed solution you can read below
 
 <object data="/assets/pdf/solution.pdf" type="application/pdf" width="100%" height="600px">
   <p>PDF preview not available. <a href="/assets/pdf/solution.pdf">Download the PDF</a></p>
