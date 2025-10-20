@@ -16,4 +16,142 @@
     await mermaid.run({querySelector:'code.language-mermaid'});
 </script>
 
+<!-- Blue Theme Toggle -->
+<script>
+  // Theme toggle functionality
+  function toggleTheme() {
+    const html = document.documentElement;
+    const currentTheme = html.getAttribute('data-theme');
+
+    if (currentTheme === 'dark') {
+      html.removeAttribute('data-theme');
+      localStorage.setItem('theme', 'light');
+    } else {
+      html.setAttribute('data-theme', 'dark');
+      localStorage.setItem('theme', 'dark');
+    }
+  }
+
+  // Initialize theme from localStorage or default to light
+  document.addEventListener('DOMContentLoaded', function() {
+    const savedTheme = localStorage.getItem('theme') || 'light';
+    if (savedTheme === 'dark') {
+      document.documentElement.setAttribute('data-theme', 'dark');
+    }
+
+    // Add theme toggle button to masthead
+    const masthead = document.querySelector('.masthead__inner');
+    if (masthead) {
+      const toggleButton = document.createElement('button');
+      toggleButton.innerHTML = '🌙';
+      toggleButton.style.cssText = 'background: none; border: none; font-size: 1.5em; cursor: pointer; margin-left: auto; color: var(--global-text-color);';
+      toggleButton.title = 'Toggle dark/light theme';
+      toggleButton.onclick = function() {
+        toggleTheme();
+        this.innerHTML = document.documentElement.getAttribute('data-theme') === 'dark' ? '☀️' : '🌙';
+      };
+
+      // Set initial icon
+      toggleButton.innerHTML = savedTheme === 'dark' ? '☀️' : '🌙';
+      masthead.appendChild(toggleButton);
+    }
+  });
+
+  // Code block copy functionality
+  document.addEventListener('DOMContentLoaded', function() {
+    const codeBlocks = document.querySelectorAll('.highlight');
+
+    codeBlocks.forEach(function(codeBlock, index) {
+      // Create header for code block
+      const header = document.createElement('div');
+      header.style.cssText = `
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 40px;
+        background: var(--global-bg-color, #2d3748);
+        border-bottom: 1px solid var(--global-border-color, #4a5568);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 12px;
+        z-index: 2;
+        font-size: 12px;
+        color: var(--global-text-color, #e2e8f0);
+      `;
+
+      // Try to get filename from code block or create generic label
+      let filename = 'Code';
+      const preElement = codeBlock.querySelector('pre');
+      if (preElement && preElement.getAttribute('data-lang')) {
+        filename = preElement.getAttribute('data-lang');
+      } else if (codeBlock.classList.contains('language-python')) {
+        filename = 'script.py';
+      } else if (codeBlock.classList.contains('language-javascript')) {
+        filename = 'script.js';
+      } else if (codeBlock.classList.contains('language-bash')) {
+        filename = 'terminal';
+      }
+
+      // Add filename
+      const filenameSpan = document.createElement('span');
+      filenameSpan.textContent = filename;
+      filenameSpan.style.fontFamily = 'monospace';
+      header.appendChild(filenameSpan);
+
+      // Create copy button
+      const copyButton = document.createElement('button');
+      copyButton.innerHTML = '📋';
+      copyButton.style.cssText = `
+        background: none;
+        border: 1px solid var(--global-border-color, #4a5568);
+        color: var(--global-text-color, #e2e8f0);
+        cursor: pointer;
+        padding: 4px 8px;
+        border-radius: 4px;
+        font-size: 12px;
+        transition: all 0.2s ease;
+      `;
+
+      copyButton.onmouseover = function() {
+        this.style.backgroundColor = 'var(--global-link-color, #63b3ed)';
+        this.style.borderColor = 'var(--global-link-color, #63b3ed)';
+      };
+
+      copyButton.onmouseout = function() {
+        this.style.backgroundColor = 'transparent';
+        this.style.borderColor = 'var(--global-border-color, #4a5568)';
+      };
+
+      copyButton.onclick = function() {
+        const code = codeBlock.querySelector('pre code') || codeBlock.querySelector('pre');
+        if (code) {
+          navigator.clipboard.writeText(code.textContent).then(function() {
+            copyButton.innerHTML = '✅';
+            setTimeout(function() {
+              copyButton.innerHTML = '📋';
+            }, 2000);
+          }).catch(function() {
+            // Fallback for older browsers
+            const textArea = document.createElement('textarea');
+            textArea.value = code.textContent;
+            document.body.appendChild(textArea);
+            textArea.select();
+            document.execCommand('copy');
+            document.body.removeChild(textArea);
+            copyButton.innerHTML = '✅';
+            setTimeout(function() {
+              copyButton.innerHTML = '📋';
+            }, 2000);
+          });
+        }
+      };
+
+      header.appendChild(copyButton);
+      codeBlock.appendChild(header);
+    });
+  });
+</script>
+
 <!-- end custom footer snippets -->
