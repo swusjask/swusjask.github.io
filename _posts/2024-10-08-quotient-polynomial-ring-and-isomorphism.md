@@ -13,6 +13,9 @@ tags:
 - discrete log
 math: true
 ---
+
+RSA in polynomial rings? Exploring quotient rings, isomorphisms, and CTF challenges that twist classic cryptography into algebraic structures. This post will solve some related challenge related with concept of polynomial ring and isomorphism.
+
 ## Introduction
 
 Firstly, I will try to introduce some definition and theorem that will be used in this post. I do not proof all the theorem here, but I will try to give some intuition about the theorem.

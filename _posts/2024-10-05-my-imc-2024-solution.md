@@ -13,9 +13,8 @@ tags:
 math: true
 ---
 
-In this blog, I will share my solutions during competition. While some of my solutions differ from the official ones, others follow the same ideas but are presented in different ways.
-
-You can find the official solutions for Day 1 and Day 2 at the following links:
+![IMC](/assets/img/imc2024/imc-logo.png)
+Some problems I solved at IMC 2024. My approaches sometimes differ from the official solutions, but the math still works out. You can find the official solutions for Day 1 and Day 2 at the following links:
 - [IMC 2024 Day 1 Solutions](https://www.imc-math.org.uk/imc2024/imc2024-day1-solutions.pdf){: target="_blank"}
 - [IMC 2024 Day 2 Solutions](https://www.imc-math.org.uk/imc2024/imc2024-day2-solutions.pdf){: target="_blank"}
 

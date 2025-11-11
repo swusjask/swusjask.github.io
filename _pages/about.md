@@ -11,15 +11,7 @@ I am Mohammad Ferry Husnil Arif, a Computer Science student at Universitas Indon
 
 ## Research Interest
 
-I am interested in several areas where theoretical computer science and math are involved:
-
-**Post-Quantum Cryptography:** Including **lattice-based cryptography** and **isogeny-based cryptography**.
-
-**Privacy-Preserving Computation:** Such as **zero-knowledge proofs**.
-
-**Cryptanalysis:** Both **classical** and **quantum** approaches.
-
-I am also open to learning many other areas in cryptography.
+I have broad research interests in the **theoretical foundations of cryptography**, particularly **post-quantum cryptography** built on **lattice-based** constructions and related topics in **privacy-preserving computation**. I am open to learning specific areas within cryptography where **theoretical computer science** and **mathematics** are deeply involved.
 
 ## Education
 

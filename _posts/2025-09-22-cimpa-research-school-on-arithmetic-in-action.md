@@ -1,6 +1,6 @@
 ---
 layout: single
-title: CIMPA research school on Arithmetic in action
+title: 'CIMPA Research School on Arithmetic in Action: A Deep Dive into Lattice-Based Cryptography'
 date: 2025-09-22
 math: true
 categories:
@@ -10,7 +10,9 @@ tags:
 - lattice based cryptography
 ---
 
+![CIMPA Research School](/assets/img/cimpa/cimpa-photo.jpg)
 This July 2025, I had the incredible opportunity to participate in the CIMPA Research School on "Arithmetic in Action: Number Theory and its Applications to Cryptography and Coding Theory" held at Universitas Gadjah Mada in Yogyakarta, Indonesia. As a cryptography enthusiast, this experience was amazing and really opened my mind to the deep mathematical foundations underlying modern cryptographic systems.
+
 
 ## CIMPA Research School
 
