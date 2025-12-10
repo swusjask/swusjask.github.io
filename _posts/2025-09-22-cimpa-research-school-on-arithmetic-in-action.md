@@ -31,9 +31,7 @@ What made this program perfect for me was its advanced master's level content. S
 
 ## A New Perspective on Lattice-Based Cryptography
 
-The lattice course, taught by Professor Adeline Roux-Langlois, deserves special recognition for completely transforming my understanding of lattice-based cryptography. I want to give my big appreciation to Prof. Roux-Langlois for her exceptionally clear explanations of the fundamental concepts.
-
-Before this course, my relationship with lattices was purely adversarial. As a CTF cryptography player, lattices meant one thing: breaking cryptosystems by applying LLL reduction wherever possible. My mindset was entirely focused on the attack side, viewing lattices as tools for cryptanalysis.
+The lattice course, taught by Professor Adeline Roux-Langlois, deserves special recognition for completely transforming my understanding of lattice-based cryptography. Before this course, my relationship with lattices was purely adversarial. As a CTF cryptography player, lattices meant one thing: breaking cryptosystems by applying LLL reduction wherever possible. My mindset was entirely focused on the attack side, viewing lattices as tools for cryptanalysis.
 
 The course fundamentally shifted my perspective from "how to break crypto with lattices" to "how lattices can be the foundation of secure cryptosystems." The key insight was understanding the complete theoretical framework:
 
@@ -47,7 +45,13 @@ This theoretical foundation is especially relevant given the current NIST Post-Q
 
 ## Exercise Solutions
 
-Throughout the course, I worked through challenging exercises that helped me to bridge theoretical concepts. Here I share my worked solution specifically for lattice based cryptography on Lattice course. For detailed solution you can read below
+Throughout the lattice course I wrote up detailed solutions for the exercise sheet on lattice-based cryptography. Some of the key results in the notes are:
+
+- Proving IND-CPA security of the dual Regev encryption scheme via a reduction from LWE.
+- Working out reductions relating the hardness of LWE, SIS, and ISIS as lattice problems.
+- Understanding the landscape of lattice problems, including how to construct bases of q-ary lattices.
+
+For detailed solution you can read below
 
 <object data="/assets/pdf/solution.pdf" type="application/pdf" width="100%" height="300px">
   <p>PDF preview not available. <a href="/assets/pdf/solution.pdf">Download the PDF</a></p>

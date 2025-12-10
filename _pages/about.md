@@ -7,11 +7,11 @@ redirect_from:
   - /about.html
 ---
 
-I am Mohammad Ferry Husnil Arif, a Computer Science student at Universitas Indonesia. I got interested in cryptography through CTF competitions because it combines cybersecurity and mathematics. This led me to want to focus on cryptography research. During my studies, I also joined some math competitions including got Third Prize at the International Mathematics Competition 2024.
+I am Mohammad Ferry Husnil Arif, a recent Computer Science graduate from Universitas Indonesia. I got interested in cryptography through CTF competitions because they combine cybersecurity and mathematics, which led me to focus on cryptography research.
 
 ## Research Interest
 
-I have broad research interests in the **theoretical foundations of cryptography**, particularly **post-quantum cryptography** built on **lattice-based** constructions and related topics in **privacy-preserving computation**. I am open to learning specific areas within cryptography where **theoretical computer science** and **mathematics** are deeply involved.
+I have broad research interests in **cryptography**, from the **foundations of cryptography** to practical **privacy-preserving systems**. I am particularly interested in foundational questions such as which hardness assumptions on groups and lattices suffice for secure computation and proof systems while remaining secure in the post-quantum setting. I am open to learning specific areas within cryptography where **theoretical computer science** and **mathematics** are deeply involved
 
 ## Education
 
@@ -20,14 +20,17 @@ I have broad research interests in the **theoretical foundations of cryptography
 BSc in Computer Science, Aug 2021 - Jul 2025
 
 - **GPA:** 3.93/4.00
-- **Thesis Supervisor:** Lim Yohanes Stefanus
-- **Thesis Topic:** KZG Polynomial Commitment Scheme on zk-SNARKs Construction and Its Implementation [📄](https://swusjask.github.io/assets/pdf/thesis-slides.pdf) [⚙️](https://github.com/swusjask/kzg-snark)
+- **Thesis:** *KZG Polynomial Commitment Schemes for zk-SNARKs: Design and Implementation*  
+  [📄 Slides](https://swusjask.github.io/assets/pdf/thesis-slides.pdf)
+  [📝 Thesis](https://swusjask.github.io/assets/pdf/thesis.pdf)
+  [⚙️ Code](https://github.com/swusjask/kzg-snark)  
+- **Supervisor:** Lim Yohanes Stefanus
 
 ## Publication
 
-- [**On the Classical Hardness of the Semidirect Discrete Logarithm Problem in Finite Groups**](https://arxiv.org/abs/2508.05048) <br>
-  **MFH Arif**, M Imran. <br>
-  *Accepted at Indocrypt 2025*.
+- [**On the Classical Hardness of the Semidirect Discrete Logarithm Problem in Finite Groups**](https://link.springer.com/chapter/10.1007/978-3-032-13301-4_1)  
+  MFH Arif, M Imran.  
+  **Indocrypt 2025**. [Preprint](https://arxiv.org/abs/2508.05048).
 
 ## Selected Achievement
 
