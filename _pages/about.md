@@ -11,7 +11,7 @@ I am Mohammad Ferry Husnil Arif, a recent Computer Science graduate from Univers
 
 ## Research Interest
 
-I have broad research interests in **cryptography**, from the **foundations of cryptography** to practical **privacy-preserving systems**. I am particularly interested in foundational questions such as which hardness assumptions on groups and lattices suffice for secure computation and proof systems while remaining secure in the post-quantum setting. I am open to learning specific areas within cryptography where **theoretical computer science** and **mathematics** are deeply involved
+I have broad research interests in **cryptography**, from the **foundations of cryptography** to practical **privacy-preserving systems**. I am particularly interested in foundational questions such as which hardness assumptions on lattices suffice for secure computation and proof systems while remaining secure in the post-quantum setting. I am open to learning specific areas within cryptography where **theoretical computer science** and **mathematics** are deeply involved
 
 ## Education
 
