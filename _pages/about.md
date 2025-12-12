@@ -23,8 +23,7 @@ BSc in Computer Science, Aug 2021 - Jul 2025
 - **Thesis:** *KZG Polynomial Commitment Schemes for zk-SNARKs: Design and Implementation*  
   [📄 Slides](https://swusjask.github.io/assets/pdf/thesis-slides.pdf)
   [📝 Thesis](https://swusjask.github.io/assets/pdf/thesis.pdf)
-  [⚙️ Code](https://github.com/swusjask/kzg-snark)  
-- **Supervisor:** Lim Yohanes Stefanus
+  [⚙️ Code](https://github.com/swusjask/kzg-snark)
 
 ## Publication
 
